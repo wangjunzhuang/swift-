@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘8.0’
+use_frameworks!
+
+target 'DemoSwift' do
+    pod 'Alamofire', '~> 4.4'
+    pod 'SwiftyJSON', '~> 3.1.4'
+    pod 'HandyJSON', '~> 1.6.0'
+    pod 'Refresher', '~> 0.6.1'
+end
